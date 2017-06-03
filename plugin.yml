@@ -1,0 +1,12 @@
+name: CustomCommands
+version: 1.0.0
+author: Gianluca
+main: com.gianlucamc.customcommands.CustomCommands
+description: An easy to use, up to date and highly customisable plugin to create custom commands
+depend: [PlaceholderAPI]
+
+commands:
+    customcommands:
+        usage: /<command>
+        aliases: [customcommand, customcmd, customcmds, ccmd, ccmds]
+        description: Base command

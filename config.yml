@@ -1,0 +1,32 @@
+settings:
+    cooldownEnabled: true
+    cooldown: 10
+    
+commands:
+    'example':
+        noPermissionMessage: "&cYou cannot execute this command!"
+        actions:
+        - "[console] eco give %player_name% 100"
+        - "[player] balance"
+        - "[message] &aRedeemed command! Got money"
+    'test':
+        noPermissionMessage: "&cYou do not have permission to do this!!"
+        actions:
+        - "[message] &cThis is only a test, I repeat, only a test..."
+        
+messages:
+    notAPlayer: "&cYou need to be a player to do this"
+    noPermission: "&cYou do not have the required permissions to perform this action!"
+    noCommandFound: "&c/%command% is not a valid Custom Command"
+    incorrectArguments: "&cYou have specified incorrect arguments!"
+    onCooldown: "&cYou cannot execute a Custom Command for another %time% seconds!"
+    reloadSuccess: "&aSuccessfully reloaded the plugin!"
+    help:
+    - " "
+    - "&cCustomCommands v%version% &f- &aBy Gianluca"
+    - " "
+    - "&a/customcommands &f- &cReceive this message"
+    - "&a/customcommands list &f- &cList all of the created commands"
+    - "&a/customcommands reload &f- &cReload the configuration"
+    - "&a/customcommands execute <command> &f- &cForcefully execute the command <command>"
+    - " "

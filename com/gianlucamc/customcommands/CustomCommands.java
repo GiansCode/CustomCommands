@@ -26,7 +26,7 @@ public class CustomCommands extends JavaPlugin implements Listener {
 	@Override
 	public void onEnable() {
 		if (Bukkit.getServer().getPluginManager().getPlugin("PlaceholderAPI") == null) {
-			Bukkit.getServer().getLogger().severe("[EZBroadcast] PlaceholderAPI not found, disabling the plugin...");
+			Bukkit.getServer().getLogger().severe("[CustomCommands] PlaceholderAPI not found, disabling the plugin...");
 			Bukkit.getServer().getPluginManager().disablePlugin(this);
 			return;
 		}
